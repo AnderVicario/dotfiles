@@ -1,0 +1,25 @@
+#!/bin/bash
+picom &
+polybar &
+feh --bg-fill /home/avicario/Images/wallpaper.png
+
+# Set decoration geometry
+berryc border_width       0
+berryc inner_border_width 0
+berryc title_height       20
+berryc edge_gap           33 0 0 0
+
+# Set decoration colors
+berryc focus_color         2f2f2f
+berryc unfocus_color       171717
+berryc inner_focus_color   2f2f2f
+berryc inner_unfocus_color 171717
+berryc text_focus_color    ececec
+berryc text_unfocus_color  ececec
+
+# Other options
+berryc smart_place "true"
+berryc draw_text   "true"
+berryc edge_lock   "true"
+berryc set_font    "inter"
+berryc pointer_interval 0

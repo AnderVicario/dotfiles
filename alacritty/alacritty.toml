@@ -1,0 +1,36 @@
+[colors.cursor]
+cursor = "0xececec"
+text = "0xececec"
+
+[colors.primary]
+background = "0x171717"
+foreground = "0xececec"
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "Roboto Mono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "Roboto Mono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "Roboto Mono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Roboto Mono Nerd Font"
+style = "Regular"
+
+[window]
+startup_mode = "Windowed"
+dimensions = { columns = 100, lines = 30 }
+position = { x = 460, y = 200 }
+
+[terminal]
+
+[terminal.shell]
+program = "/bin/zsh"
